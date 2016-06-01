@@ -162,3 +162,5 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 # Locking
 bindsym $mod+l exec "~/.local/share/fuzzy_lock.sh"
 exec xautolock -time 15 -locker '~/.local/share/fuzzy_lock.sh' &
+exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet
