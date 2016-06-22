@@ -10,12 +10,15 @@ Key features:
 
 Tested on Lenove ThinkPad L450. 20 April 2016.
 
-Install folllowing requirements before cloning.
+Installation steps :
 
+In the terminal (Windows key + Enter )
 Type
 `crontab -e`
-And add this line at the bottom
+And add this line at the bottom of the file 
 `*/1 * * * * /HOMEPATH/.i3batwarn.sh`
+
+Now install following packages using teminal.
 
 ```
 sudo apt-get install scrot
@@ -26,30 +29,22 @@ sudo apt-get install imagemagick
 sudo apt-get install blueman
 ```
 
-Move fuzzy_lock.sh using
+Move fuzzy_lock.sh to appropriate PATH using
 `sudo mv fuzzy_lock.sh ~/.local/share/fuzzy_lock.sh`
 
-Move i3 config using
+Move my i3 configuration file to HOME PATH using
 `sudo mv config ~/.i3/config`
 
 
-Move i3batwarn.sh using
+Move i3batwarn.sh to HOME using
 `sudo mv .i3batwarn.sh ~/.i3batwarn.sh`
 
 Allow execution access to fuzzy_lock
 `sudo chmod a+x ~/.local/share/fuzzy_lock.sh`
 
-Type
-`crontab -e`
-And add this line at the bottom
-`*/1 * * * * /HOMEPATH/.i3batwarn.sh`
-
-
-
 Now, Refresh i3 using $mod+shift+r 
+$mod => Windows key by default.
 
 Test using $mod+l.
 
-Also, your Media keys should work (Volume and Brightness) 
-
-
+Also, your Media keys should work (Volume and Brightness)
