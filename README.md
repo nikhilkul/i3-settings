@@ -31,6 +31,16 @@ sudo apt-get install imagemagick
 sudo apt-get install blueman
 ```
 
+Now we need to move some files.
+
+Clone the repository using 
+
+`git clone https://github.com/nikhil2kulkarni/i3-settings.git`
+
+Go to the cloned repository using 
+
+`cd i3-settings`
+
 Move fuzzy_lock.sh to appropriate PATH using
 
 `sudo mv fuzzy_lock.sh ~/.local/share/fuzzy_lock.sh`
@@ -38,7 +48,6 @@ Move fuzzy_lock.sh to appropriate PATH using
 Move my i3 configuration file to HOME PATH using
 
 `sudo mv config ~/.i3/config`
-
 
 Move i3batwarn.sh to HOME using
 
@@ -48,8 +57,9 @@ Allow execution access to fuzzy_lock
 
 `sudo chmod a+x ~/.local/share/fuzzy_lock.sh`
 
-Now, Refresh i3 using $mod+shift+r 
 $mod => Windows key by default.
+
+Now, Refresh i3 using $mod+shift+r 
 
 Test using $mod+l.
 
