@@ -1,6 +1,6 @@
 # i3-settings
 
-*Key features :*
+**Key features :**
 
 1. Locks using $mod+l.
 
@@ -10,7 +10,8 @@
 
 Tested on Lenove ThinkPad L450. 20 April 2016.
 
-*Installation steps :*
+**Installation steps :**
+
 Open Terminal (Windows key + Enter )
 
 Type
@@ -30,7 +31,7 @@ sudo apt-get install imagemagick
 sudo apt-get install blueman
 ```
 
-Now we need to move some files.
+*Now we need to move some files.*
 
 Clone the repository using 
 
