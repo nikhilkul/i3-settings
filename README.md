@@ -13,8 +13,10 @@ Tested on Lenove ThinkPad L450. 20 April 2016.
 Installation steps :
 
 In the terminal (Windows key + Enter )
+
 Type
 `crontab -e`
+
 And add this line at the bottom of the file 
 `*/1 * * * * /HOMEPATH/.i3batwarn.sh`
 
@@ -30,16 +32,20 @@ sudo apt-get install blueman
 ```
 
 Move fuzzy_lock.sh to appropriate PATH using
+
 `sudo mv fuzzy_lock.sh ~/.local/share/fuzzy_lock.sh`
 
 Move my i3 configuration file to HOME PATH using
+
 `sudo mv config ~/.i3/config`
 
 
 Move i3batwarn.sh to HOME using
+
 `sudo mv .i3batwarn.sh ~/.i3batwarn.sh`
 
 Allow execution access to fuzzy_lock
+
 `sudo chmod a+x ~/.local/share/fuzzy_lock.sh`
 
 Now, Refresh i3 using $mod+shift+r 
