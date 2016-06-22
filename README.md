@@ -1,6 +1,6 @@
 # i3-settings
 
-Key features:
+*Key features :*
 
 1. Locks using $mod+l.
 
@@ -10,9 +10,8 @@ Key features:
 
 Tested on Lenove ThinkPad L450. 20 April 2016.
 
-Installation steps :
-
-In the terminal (Windows key + Enter )
+*Installation steps :*
+Open Terminal (Windows key + Enter )
 
 Type
 `crontab -e`
