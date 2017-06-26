@@ -3,6 +3,8 @@ i3 is a tiling window manager and a very good productivity tool.
 i3 has transformed my daily laptop usage and I believe should be a goto window manager on linux platform.
 I hear present my settings. 
 
+## QuickStart
+
 **Key features :**
 
 1. Locks using $mod+l.
