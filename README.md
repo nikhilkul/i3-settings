@@ -1,7 +1,8 @@
 # i3-settings
-i3 is a tiling window manager and a very good productivity tool.
-i3 has transformed my daily laptop usage and I believe should be a goto window manager on linux platform.
-I hear present my settings. 
+**i3** is a tiling window manager and one of the better productivity tools for linux.
+**i3** has transformed my developer setup and I believe it should be a goto window manager on linux platform for everyone.
+
+Making some of my settings public.
 
 ## QuickStart
 
